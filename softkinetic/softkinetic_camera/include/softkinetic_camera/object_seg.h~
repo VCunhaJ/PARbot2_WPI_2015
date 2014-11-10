@@ -1,0 +1,8 @@
+#ifndef OBJECT_SEG_H_
+#define OBJECT_SEG_H_
+
+#include <ros/ros.h>
+
+
+
+#endif
