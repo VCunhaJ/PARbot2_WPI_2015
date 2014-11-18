@@ -1,3 +1,4 @@
-PARbot2_WPI_2015
-================
-This is a MQP Repository
+softkinetic
+===========
+
+This repository holds a ROS driver package for an interactive gesture camera (softkinetic).
