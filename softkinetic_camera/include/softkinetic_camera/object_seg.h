@@ -65,7 +65,13 @@
 #include <pcl/segmentation/extract_clusters.h>
 
 
+//Segmentation Parameters
 
+#define PERPENDICULAR_PLANE_AXIS 0.15
+#define ANGLE_EPSILON 
+#define MAX_CLUSTER_SIZE 200
+#define MIN_CLUSTER_SIZE 1000
+#define MAX_ITERATION 1000
 class ObjectDetection
 {
 
@@ -124,7 +130,7 @@ void ObjectSegmented(pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloudExtracted);
    * Segments the biggest plane from Point Cloud set
    * @param PointCloud Class Object
    */
-void extractData();
+
 
 void RANSACModel();
 };

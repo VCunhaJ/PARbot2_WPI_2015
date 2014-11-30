@@ -74,7 +74,7 @@
 
 		/*Objects for storing manipulated cloud data  */
 		pcl::PointCloud<pcl::PointXYZRGB>::Ptr inlierPoints(new pcl::PointCloud<pcl::PointXYZRGB> ); // object for storing inlier point clouds
-		pcl::PointCloud<pcl::PointXYZRGB>::Ptr new_cloud(new pcl::PointCloud<pcl::PointXYZRGB> ()); // object for storing desired points clouds
+		pcl::PointCloud<pcl::PointXYZRGB>::Ptr new_cloud(new pcl::PointCloud<pcl::PointXYZRGB>)); // object for storing desired points clouds
 		pcl::PointCloud<pcl::PointXYZRGB>::Ptr plane_extracted(new pcl::PointCloud<pcl::PointXYZRGB> ());  //object for storing extracted clouds
 		pcl::PointCloud<pcl::PointXYZRGB>::Ptr concaveHull(new pcl::PointCloud<pcl::PointXYZRGB>); // object for displaying concave hull pointcloud
 		pcl::PointCloud<pcl::PointXYZRGB>::Ptr point_remained(new pcl::PointCloud<pcl::PointXYZRGB>);
