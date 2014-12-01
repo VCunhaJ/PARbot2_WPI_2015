@@ -21,6 +21,7 @@
 #include <pcl/PointIndices.h>
 #include <pcl/ros/conversions.h>
 #include <image_transport/image_transport.h>
+#include <std_srvs/Empty.h>
 
 #include <pcl/filters/passthrough.h>
 #include <pcl_ros/point_cloud.h>
@@ -77,7 +78,12 @@ class ObjectDetection
 
 public:
 		ros::NodeHandle node;
-	
+  
+  pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloudManip;
+  pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloudFiltered;
+  pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloudP;
+  pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloudF;
+	 
 		ObjectDetection();
 
 private:
@@ -99,8 +105,15 @@ private:
 		ros::Publisher	SegmentedPublisher;
 
 
-  /*Subscriber and Publisher*/
-   
+  ros::ServiceServer segmentServer;
+  ros::ServiceServer recognizeServer;
+  ros::ServiceServer removeObjectServer;
+  ros::ServiceServer clearObjectsServer;
+  
+  ros::ServiceClient recognizeClient;
+
+ // softkinetic_camera::SegmentedObjectList objectList;    //segmented object list
+ // softkinetic_camera::SegmentedObjectList objectListVis; //downsampled segmented object list for visualization
 
 
 void ObjectCallBack(const sensor_msgs::PointCloud2& incoming);
