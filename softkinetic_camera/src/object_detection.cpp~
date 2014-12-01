@@ -57,7 +57,7 @@ wallSegmentation.setMaxIterations(MAX_ITERATION);
 wallSegmentation.setDistanceThreshold(0.01);
 wallSegmentation.setInputCloud(cloudAll);
 
- 
+/*
 // Object for extracting points from a list of indices.
 pcl::ExtractIndices<pcl::PointXYZRGB> extract;
 extract.setInputCloud(cloudAll);
@@ -67,24 +67,26 @@ extract.setNegative(true);
 extract.filter(*cloudExtracted);
 }
 
-
+*/
+}
 
 /*Callback Function*/
 void ObjectDetection::ObjectCallBack(const sensor_msgs::PointCloud2& incoming){
 
-PointCloud2ToPointClass(*incoming, *cloudManip);
+//PointCloud2ToPointClass(*incoming, *cloudManip);
 
 }
 
 
 
 
-int main (int argc, char** argv){
+int main (int argc, char** argv)
+{
 
 ros::init(argc, argv, "object_detection_node");
 
 
-ros::Rate loopRate(10)//10Hz
+ros::Rate loopRate(10);//10Hz
 while(ros::ok())
 {
 
