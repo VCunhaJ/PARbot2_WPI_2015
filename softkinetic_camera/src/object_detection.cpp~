@@ -17,30 +17,37 @@ using namespace pcl;
 using namespace std;
 
 
+
+
 ObjectDetection::ObjectDetection()
 {
 
-sub_raw_data = node.subscribe("/softkinetic_camera/depth_registered/points", 1, &ObjectDetection::ObjectCallBack, this);
-pub_seg = node.advertise<sensor_msgs::PointCloud2>("PARbot2/ObjectDetection/biggest_plane",1);
+PointCloud<PointXYZRGB>::Ptr cloudManip (new PointCloud<PointXYZRGB>);
+sensor_msgs::PointCloud2 wallDetected;
+
+
+
 
 }
 
 
 /*Point Type Conversions*/
-void ObjectDetection::PointCloud2ToPointClass(sensor_msgs::PointCloud2& cloud,	pcl::PointCloud<pcl::PointXYZRGB>::Ptr newCloud){
+/*void ObjectDetection::PointCloud2ToPointClass(sensor_msgs::PointCloud2& cloud,	pcl::PointCloud<pcl::PointXYZRGB>::Ptr newCloud){
 fromROSMsg(cloud, *newCloud);
 }
 
 void ObjectDetection::PointClassToPointCloud2(pcl::PointCloud<pcl::PointXYZRGB>::Ptr pointCloudObject, sensor_msgs::PointCloud2 pointCloud2){
 toROSMsg(*pointCloudObject, pointCloud2);
 }
-
+*/
 
 
 /*Biggest Plane Segementation*/
 void ObjectDetection::ObjectSegmented(PointCloud<PointXYZRGB>::Ptr cloudAll)
 {
 
+
+/*
 //Plane Segmentation Objects
 ModelCoefficients::Ptr coefficients(new pcl::ModelCoefficients);
 SACSegmentation<pcl::PointXYZRGB> wallSegmentation;
@@ -56,6 +63,7 @@ wallSegmentation.setMethodType(SAC_RANSAC);
 wallSegmentation.setMaxIterations(MAX_ITERATION);
 wallSegmentation.setDistanceThreshold(0.01);
 wallSegmentation.setInputCloud(cloudAll);
+*/
 
 /*
 // Object for extracting points from a list of indices.
@@ -72,9 +80,29 @@ extract.filter(*cloudExtracted);
 
 /*Callback Function*/
 void ObjectDetection::ObjectCallBack(const sensor_msgs::PointCloud2& incoming){
+sensor_msgs::PointCloud2 wallDetected;
 
-//PointCloud2ToPointClass(*incoming, *cloudManip);
+fromROSMsg(incoming, *cloudManip);
 
+ModelCoefficients::Ptr coefficients(new pcl::ModelCoefficients);
+SACSegmentation<pcl::PointXYZRGB> wallSegmentation;
+PointIndices::Ptr inliers(new pcl::PointIndices ());
+PointIndices::Ptr outliers(new pcl::PointIndices());
+PointIndices::Ptr pointIndices(new pcl::PointIndices());
+
+wallSegmentation.setOptimizeCoefficients(true);
+wallSegmentation.setModelType(SACMODEL_PERPENDICULAR_PLANE);
+wallSegmentation.setAxis(Eigen::Vector3f(0,0,1));
+wallSegmentation.setEpsAngle(PERPENDICULAR_PLANE_AXIS);
+wallSegmentation.setMethodType(SAC_RANSAC);
+wallSegmentation.setMaxIterations(MAX_ITERATION);
+wallSegmentation.setDistanceThreshold(0.01);
+wallSegmentation.setInputCloud(cloudManip);
+
+
+toROSMsg(*cloudManip,wallDetected);
+
+pub_seg.publish(wallDetected);
 }
 
 
@@ -86,7 +114,8 @@ int main (int argc, char** argv)
 ros::init(argc, argv, "object_detection_node");
 
 
-ros::Rate loopRate(10);//10Hz
+
+ros::Rate loopRate( 10);//10Hz
 while(ros::ok())
 {
 

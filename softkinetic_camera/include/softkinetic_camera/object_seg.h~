@@ -92,7 +92,7 @@ private:
 		std::vector<pcl::PointCloud<pcl::PointXYZRGB>::Ptr> segObjects;
 
   //Plane Segmentation Objects
-  //pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloudAll(new pcl::PointCloud<pcl::PointXYZRGB>);
+  pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloudAll(new pcl::PointCloud<pcl::PointXYZRGB>);
 	 // pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloudExtracted(new pcl::PointCloud<pcl::PointXYZRGB>);
   
 		
