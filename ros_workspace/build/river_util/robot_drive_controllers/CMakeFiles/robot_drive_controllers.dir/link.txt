@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,librobot_drive_controllers.so -o /home/parbot/ros_workspace/devel/lib/librobot_drive_controllers.so CMakeFiles/robot_drive_controllers.dir/src/skid_4wheel_drive_controller.cpp.o 

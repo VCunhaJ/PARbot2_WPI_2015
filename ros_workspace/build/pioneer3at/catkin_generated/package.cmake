@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pioneer3at")
+set(pioneer3at_MAINTAINER "parbot <parbot@todo.todo>")
+set(pioneer3at_DEPRECATED "")
+set(pioneer3at_VERSION "0.0.0")
+set(pioneer3at_BUILD_DEPENDS "urdf")
+set(pioneer3at_RUN_DEPENDS "urdf")
+set(pioneer3at_BUILDTOOL_DEPENDS "catkin")

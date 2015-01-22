@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "parbot_tf")
+set(parbot_tf_MAINTAINER "parbot <parbot@todo.todo>")
+set(parbot_tf_DEPRECATED "")
+set(parbot_tf_VERSION "0.0.0")
+set(parbot_tf_BUILD_DEPENDS "roscpp" "rospy" "tf")
+set(parbot_tf_RUN_DEPENDS "roscpp" "rospy" "tf")
+set(parbot_tf_BUILDTOOL_DEPENDS "catkin")

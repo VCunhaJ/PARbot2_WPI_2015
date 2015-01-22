@@ -1,0 +1,8 @@
+prefix=/home/parbot/ros_workspace/devel
+
+Name: robot_drive_controllers
+Description: Description of robot_drive_controllers
+Version: 0.0.0
+Cflags: -I/home/parbot/ros_workspace/src/river_util/robot_drive_controllers/include
+Libs: -L/home/parbot/ros_workspace/devel/lib -lrobot_drive_controllers
+Requires: controller_interface

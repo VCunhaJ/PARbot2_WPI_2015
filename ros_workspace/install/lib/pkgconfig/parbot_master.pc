@@ -1,0 +1,8 @@
+prefix=/home/parbot/ros_workspace/install
+
+Name: parbot_master
+Description: Description of parbot_master
+Version: 0.0.0
+Cflags: -I/home/parbot/ros_workspace/install/include
+Libs: -L/home/parbot/ros_workspace/install/lib 
+Requires: roscpp rospy

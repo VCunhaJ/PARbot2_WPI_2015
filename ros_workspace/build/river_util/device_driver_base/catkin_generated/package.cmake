@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "device_driver_base")
+set(device_driver_base_MAINTAINER "Mitchell Wills <mwills@wpi.edu>")
+set(device_driver_base_DEPRECATED "")
+set(device_driver_base_VERSION "0.0.0")
+set(device_driver_base_BUILD_DEPENDS "roscpp" "std_msgs" "actionlib" "actionlib_msgs" "dynamic_reconfigure" "river_ros_util")
+set(device_driver_base_RUN_DEPENDS "roscpp" "std_msgs" "actionlib" "actionlib_msgs" "dynamic_reconfigure" "river_ros_util")
+set(device_driver_base_BUILDTOOL_DEPENDS "catkin")

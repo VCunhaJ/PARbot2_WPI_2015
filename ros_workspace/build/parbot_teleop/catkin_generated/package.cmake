@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "parbot_teleop")
+set(parbot_teleop_MAINTAINER "parbot <parbot@todo.todo>")
+set(parbot_teleop_DEPRECATED "")
+set(parbot_teleop_VERSION "0.0.0")
+set(parbot_teleop_BUILD_DEPENDS "joy" "roboteq_mc_nxtgen_driverr" "roscpp")
+set(parbot_teleop_RUN_DEPENDS "joy" "roboteq_mc_nxtgen_driver" "roscpp")
+set(parbot_teleop_BUILDTOOL_DEPENDS "catkin")

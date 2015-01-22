@@ -1,0 +1,8 @@
+prefix=/home/parbot/ros_workspace/devel
+
+Name: jpeg_streamer
+Description: Description of jpeg_streamer
+Version: 0.2.1
+Cflags: 
+Libs: -L/home/parbot/ros_workspace/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/parbot/ros_workspace/install
+
+Name: robot_base_msgs
+Description: Description of robot_base_msgs
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/parbot/ros_workspace/install/lib 
+Requires: 

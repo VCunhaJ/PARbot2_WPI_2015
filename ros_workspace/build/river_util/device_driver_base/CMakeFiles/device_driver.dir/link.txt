@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libdevice_driver.so -o /home/parbot/ros_workspace/devel/lib/libdevice_driver.so CMakeFiles/device_driver.dir/src/device_driver.cpp.o 

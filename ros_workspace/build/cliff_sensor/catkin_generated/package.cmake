@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "cliff_sensor")
+set(cliff_sensor_MAINTAINER "parbot <parbot@todo.todo>")
+set(cliff_sensor_DEPRECATED "")
+set(cliff_sensor_VERSION "0.0.0")
+set(cliff_sensor_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(cliff_sensor_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(cliff_sensor_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "parbot_pc2_to_lsc")
+set(parbot_pc2_to_lsc_MAINTAINER "parbot <parbot@todo.todo>")
+set(parbot_pc2_to_lsc_DEPRECATED "")
+set(parbot_pc2_to_lsc_VERSION "0.0.0")
+set(parbot_pc2_to_lsc_BUILD_DEPENDS "roscpp" "sensor_msgs" "std_msgs" "image_geometry" "cv_bridge" "OpenCV" "wire_msgs")
+set(parbot_pc2_to_lsc_RUN_DEPENDS "roscpp" "sensor_msgs" "std_msgs")
+set(parbot_pc2_to_lsc_BUILDTOOL_DEPENDS "catkin")

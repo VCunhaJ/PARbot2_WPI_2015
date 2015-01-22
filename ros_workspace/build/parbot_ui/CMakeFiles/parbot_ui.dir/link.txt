@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libparbot_ui.so -o /home/parbot/ros_workspace/devel/lib/libparbot_ui.so CMakeFiles/parbot_ui.dir/src/ESTOP.cpp.o 

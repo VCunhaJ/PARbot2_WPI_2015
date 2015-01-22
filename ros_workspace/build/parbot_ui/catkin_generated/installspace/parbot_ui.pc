@@ -1,0 +1,8 @@
+prefix=/home/parbot/ros_workspace/install
+
+Name: parbot_ui
+Description: Description of parbot_ui
+Version: 0.0.0
+Cflags: -I/home/parbot/ros_workspace/install/include
+Libs: -L/home/parbot/ros_workspace/install/lib 
+Requires: parbot_msgs roscpp rospy

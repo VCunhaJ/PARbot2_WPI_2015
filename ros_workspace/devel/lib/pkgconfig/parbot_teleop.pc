@@ -1,0 +1,8 @@
+prefix=/home/parbot/ros_workspace/devel
+
+Name: parbot_teleop
+Description: Description of parbot_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/parbot/ros_workspace/devel/lib -lUI_Command_handler
+Requires: joy roboteq_mc_nxtgen_driver roscpp

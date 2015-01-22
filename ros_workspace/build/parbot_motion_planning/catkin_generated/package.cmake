@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "parbot_motion_planning")
+set(parbot_motion_planning_MAINTAINER "parbot <parbot@todo.todo>")
+set(parbot_motion_planning_DEPRECATED "")
+set(parbot_motion_planning_VERSION "0.0.0")
+set(parbot_motion_planning_BUILD_DEPENDS "roscpp" "sensor_msgs" "message_generation")
+set(parbot_motion_planning_RUN_DEPENDS "roscpp" "sensor_msgs" "message_runtime")
+set(parbot_motion_planning_BUILDTOOL_DEPENDS "catkin")

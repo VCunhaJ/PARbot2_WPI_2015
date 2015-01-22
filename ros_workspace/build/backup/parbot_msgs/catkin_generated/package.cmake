@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "parbot_msgs")
+set(parbot_msgs_MAINTAINER "parbot <parbot@todo.todo>")
+set(parbot_msgs_DEPRECATED "")
+set(parbot_msgs_VERSION "0.0.0")
+set(parbot_msgs_BUILD_DEPENDS "message_generation" "roscpp")
+set(parbot_msgs_RUN_DEPENDS "message_runtime" "roscpp")
+set(parbot_msgs_BUILDTOOL_DEPENDS "catkin")

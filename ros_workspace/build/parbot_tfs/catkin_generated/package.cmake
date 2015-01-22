@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "parbot_tfs")
+set(parbot_tfs_MAINTAINER "parbot <parbot@todo.todo>")
+set(parbot_tfs_DEPRECATED "")
+set(parbot_tfs_VERSION "0.0.0")
+set(parbot_tfs_BUILD_DEPENDS "tf")
+set(parbot_tfs_RUN_DEPENDS "tf")
+set(parbot_tfs_BUILDTOOL_DEPENDS "catkin")

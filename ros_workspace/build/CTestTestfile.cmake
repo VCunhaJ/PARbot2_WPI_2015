@@ -1,0 +1,37 @@
+# CMake generated Testfile for 
+# Source directory: /home/parbot/ros_workspace/src
+# Build directory: /home/parbot/ros_workspace/build
+# 
+# This file includes the relevent testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+SUBDIRS(gtest)
+SUBDIRS(camera_umd)
+SUBDIRS(cliff_detection)
+SUBDIRS(cliff_sensor)
+SUBDIRS(computer_sensors)
+SUBDIRS(jpeg_streamer)
+SUBDIRS(manzanita_mk3_driver)
+SUBDIRS(parbot_blob_tracking)
+SUBDIRS(parbot_depthimage_to_laserscan)
+SUBDIRS(parbot_imu_coms)
+SUBDIRS(parbot_master)
+SUBDIRS(parbot_motion_planning)
+SUBDIRS(parbot_motor_control)
+SUBDIRS(parbot_msgs)
+SUBDIRS(parbot_pathplanning)
+SUBDIRS(parbot_pc2_to_lsc)
+SUBDIRS(parbot_teleop)
+SUBDIRS(parbot_tf)
+SUBDIRS(parbot_tfs)
+SUBDIRS(parbot_ui)
+SUBDIRS(pioneer3at)
+SUBDIRS(pixy)
+SUBDIRS(rbe_500_model)
+SUBDIRS(river_util/river_ros_util)
+SUBDIRS(river_util/device_driver_base)
+SUBDIRS(robot_base_msgs)
+SUBDIRS(river_util/robot_drive_controllers)
+SUBDIRS(roboteq_driver)
+SUBDIRS(roboteq_mc_nxtgen_driver)
+SUBDIRS(roboteq_mc_nxtgen_driver_tests)
+SUBDIRS(uvc_camera)

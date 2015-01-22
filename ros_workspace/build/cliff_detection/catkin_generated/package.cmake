@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "cliff_detection")
+set(cliff_detection_MAINTAINER "parbot <parbot@todo.todo>")
+set(cliff_detection_DEPRECATED "")
+set(cliff_detection_VERSION "0.0.0")
+set(cliff_detection_BUILD_DEPENDS "message_generation" "roscpp" "rospy" "std_msgs")
+set(cliff_detection_RUN_DEPENDS "message_runtime" "roscpp" "rospy" "std_msgs")
+set(cliff_detection_BUILDTOOL_DEPENDS "catkin")

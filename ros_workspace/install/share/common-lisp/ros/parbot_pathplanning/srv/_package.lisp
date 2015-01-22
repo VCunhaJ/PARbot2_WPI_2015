@@ -1,0 +1,10 @@
+(cl:defpackage parbot_pathplanning-srv
+  (:use )
+  (:export
+   "PARBOTPATHPLANNING"
+   "<PARBOTPATHPLANNING-REQUEST>"
+   "PARBOTPATHPLANNING-REQUEST"
+   "<PARBOTPATHPLANNING-RESPONSE>"
+   "PARBOTPATHPLANNING-RESPONSE"
+  ))
+

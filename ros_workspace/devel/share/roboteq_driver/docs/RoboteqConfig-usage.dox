@@ -1,0 +1,15 @@
+\subsubsection usage Usage
+\verbatim
+<node name="roboteq_driver" pkg="roboteq_driver" type="roboteq_driver">
+  <param name="port" type="str" value="/dev/ttyACM0" />
+  <param name="max_rpm" type="double" value="250.0" />
+  <param name="ppr" type="double" value="250.0" />
+  <param name="feedback_rate" type="double" value="20.0" />
+  <param name="control_rate" type="double" value="10.0" />
+  <param name="control_topic" type="str" value="roboteq_control" />
+  <param name="info_topic" type="str" value="roboteq_info" />
+  <param name="pause_topic" type="str" value="/pause" />
+  <param name="current_reset_rate" type="double" value="4.0" />
+</node>
+\endverbatim
+

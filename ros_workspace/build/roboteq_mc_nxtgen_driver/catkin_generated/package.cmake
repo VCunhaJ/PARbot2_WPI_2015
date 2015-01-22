@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "roboteq_mc_nxtgen_driver")
+set(roboteq_mc_nxtgen_driver_MAINTAINER "Dmitry Sinyukov <dmitry.sinyukov@gmail.com>")
+set(roboteq_mc_nxtgen_driver_DEPRECATED "")
+set(roboteq_mc_nxtgen_driver_VERSION "0.0.0")
+set(roboteq_mc_nxtgen_driver_BUILD_DEPENDS "nav_msgs" "geometry_msgs" "rospy" "std_msgs" "tf")
+set(roboteq_mc_nxtgen_driver_RUN_DEPENDS "nav_msgs" "geometry_msgs" "rospy" "std_msgs" "tf")
+set(roboteq_mc_nxtgen_driver_BUILDTOOL_DEPENDS "catkin")

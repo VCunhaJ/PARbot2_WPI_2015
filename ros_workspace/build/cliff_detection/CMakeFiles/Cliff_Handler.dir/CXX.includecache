@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parbot/ros_workspace/src/cliff_detection/src/Cliff_Handler.cpp
+Cliff_Handler.h
+/home/parbot/ros_workspace/src/cliff_detection/src/Cliff_Handler.h
+

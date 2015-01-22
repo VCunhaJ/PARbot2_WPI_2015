@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "computer_sensors")
+set(computer_sensors_MAINTAINER "parbot <parbot@todo.todo>")
+set(computer_sensors_DEPRECATED "")
+set(computer_sensors_VERSION "0.0.0")
+set(computer_sensors_BUILD_DEPENDS "roscpp")
+set(computer_sensors_RUN_DEPENDS "roscpp")
+set(computer_sensors_BUILDTOOL_DEPENDS "catkin")

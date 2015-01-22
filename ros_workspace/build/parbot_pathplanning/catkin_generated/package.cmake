@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "parbot_pathplanning")
+set(parbot_pathplanning_MAINTAINER "parbot <parbot@todo.todo>")
+set(parbot_pathplanning_DEPRECATED "")
+set(parbot_pathplanning_VERSION "0.0.0")
+set(parbot_pathplanning_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "nav_msgs" "geometry_msgs")
+set(parbot_pathplanning_RUN_DEPENDS "roscpp" "rospy" "std_msgs" "nav_msgs" "geometry_msgs")
+set(parbot_pathplanning_BUILDTOOL_DEPENDS "catkin")

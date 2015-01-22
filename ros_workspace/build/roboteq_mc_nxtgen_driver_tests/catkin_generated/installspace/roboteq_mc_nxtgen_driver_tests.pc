@@ -1,0 +1,8 @@
+prefix=/home/parbot/ros_workspace/install
+
+Name: roboteq_mc_nxtgen_driver_tests
+Description: Description of roboteq_mc_nxtgen_driver_tests
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/parbot/ros_workspace/install/lib 
+Requires: 

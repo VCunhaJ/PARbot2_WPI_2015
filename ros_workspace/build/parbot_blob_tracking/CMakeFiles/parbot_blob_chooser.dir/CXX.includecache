@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parbot/ros_workspace/src/parbot_blob_tracking/src/Choose_Blobs.cpp
+ros/ros.h
+-
+cmvision/Blob.h
+-
+cmvision/Blobs.h
+-
+math.h
+-
+vector
+-
+algorithm
+-
+

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "parbot_master")
+set(parbot_master_MAINTAINER "parbot <parbot@todo.todo>")
+set(parbot_master_DEPRECATED "")
+set(parbot_master_VERSION "0.0.0")
+set(parbot_master_BUILD_DEPENDS "roscpp" "rospy")
+set(parbot_master_RUN_DEPENDS "roscpp" "rospy")
+set(parbot_master_BUILDTOOL_DEPENDS "catkin")

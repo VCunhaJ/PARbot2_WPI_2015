@@ -1,0 +1,8 @@
+prefix=/home/parbot/ros_workspace/devel
+
+Name: computer_sensors
+Description: Description of computer_sensors
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/parbot/ros_workspace/devel/lib 
+Requires: 

@@ -1,0 +1,14 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~port" : \b [str] The port threw which to talk to the device min: , default: /dev/ttyACM0, max: 
+- \b "~max_rpm" : \b [double] Max RPM min: 0.0, default: 250.0, max: 5000.0
+- \b "~ppr" : \b [double] Pulses Per Rotation min: 0.0, default: 250.0, max: 5000.0
+- \b "~feedback_rate" : \b [double] The rate at which feedback is published min: 0.0, default: 20.0, max: 100.0
+- \b "~control_rate" : \b [double] The throttled rate at which control messages are sent to the controller min: 0.0, default: 10.0, max: 100.0
+- \b "~control_topic" : \b [str] The root frame of the battery min: , default: roboteq_control, max: 
+- \b "~info_topic" : \b [str] The topic on which battery information is published min: , default: roboteq_info, max: 
+- \b "~pause_topic" : \b [str] The topic on which temperature information is publised min: , default: /pause, max: 
+- \b "~current_reset_rate" : \b [double] The rate at which the current reset is called (if this is called 4 times then the motors will reset to 0 power) min: 0.1, default: 4.0, max: 20.0
+

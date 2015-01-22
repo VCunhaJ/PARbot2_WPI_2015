@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "parbot_UI")
+set(parbot_UI_MAINTAINER "parbot <parbot@todo.todo>")
+set(parbot_UI_DEPRECATED "")
+set(parbot_UI_VERSION "0.0.0")
+set(parbot_UI_BUILD_DEPENDS "parbot_msgs/" "roscpp" "rospy")
+set(parbot_UI_RUN_DEPENDS "parbot_msgs/" "roscpp" "rospy")
+set(parbot_UI_BUILDTOOL_DEPENDS "catkin")

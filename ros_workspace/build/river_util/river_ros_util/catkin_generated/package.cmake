@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "river_ros_util")
+set(river_ros_util_MAINTAINER "Mitchell Wills <mwills@wpi.edu>")
+set(river_ros_util_DEPRECATED "")
+set(river_ros_util_VERSION "0.0.0")
+set(river_ros_util_BUILD_DEPENDS "roscpp")
+set(river_ros_util_RUN_DEPENDS "roscpp")
+set(river_ros_util_BUILDTOOL_DEPENDS "catkin")

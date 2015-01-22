@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rbe_500_model")
+set(rbe_500_model_MAINTAINER "parbot <parbot@todo.todo>")
+set(rbe_500_model_DEPRECATED "")
+set(rbe_500_model_VERSION "0.0.0")
+set(rbe_500_model_BUILD_DEPENDS )
+set(rbe_500_model_RUN_DEPENDS )
+set(rbe_500_model_BUILDTOOL_DEPENDS "catkin")

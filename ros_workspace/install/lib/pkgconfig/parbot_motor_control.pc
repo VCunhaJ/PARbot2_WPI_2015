@@ -1,0 +1,8 @@
+prefix=/home/parbot/ros_workspace/install
+
+Name: parbot_motor_control
+Description: Description of parbot_motor_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/parbot/ros_workspace/install/lib 
+Requires: 

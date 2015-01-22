@@ -1,0 +1,8 @@
+prefix=/home/parbot/ros_workspace/devel
+
+Name: pioneer3at
+Description: Description of pioneer3at
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/parbot/ros_workspace/devel/lib 
+Requires: 

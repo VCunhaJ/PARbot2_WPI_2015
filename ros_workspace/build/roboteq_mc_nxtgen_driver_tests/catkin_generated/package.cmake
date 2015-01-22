@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "roboteq_mc_nxtgen_driver_tests")
+set(roboteq_mc_nxtgen_driver_tests_MAINTAINER "sd <sd@todo.todo>")
+set(roboteq_mc_nxtgen_driver_tests_DEPRECATED "")
+set(roboteq_mc_nxtgen_driver_tests_VERSION "0.0.0")
+set(roboteq_mc_nxtgen_driver_tests_BUILD_DEPENDS "roboteq_mc_nxtgen_driver" "rospy")
+set(roboteq_mc_nxtgen_driver_tests_RUN_DEPENDS "roboteq_mc_nxtgen_driver" "rospy")
+set(roboteq_mc_nxtgen_driver_tests_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pixy")
+set(pixy_MAINTAINER "parbot <parbot@todo.todo>")
+set(pixy_DEPRECATED "")
+set(pixy_VERSION "0.0.0")
+set(pixy_BUILD_DEPENDS "message_generation" "roscpp" "rospy" "std_msgs")
+set(pixy_RUN_DEPENDS "message_runtime" "roscpp" "rospy" "std_msgs")
+set(pixy_BUILDTOOL_DEPENDS "catkin")

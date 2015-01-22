@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "roboteq_driver")
+set(roboteq_driver_MAINTAINER "Maintained by the WPI RIVeR Lab <riverlab@wpi.edu>")
+set(roboteq_driver_DEPRECATED "")
+set(roboteq_driver_VERSION "0.0.0")
+set(roboteq_driver_BUILD_DEPENDS "actionlib" "device_driver_base" "dynamic_reconfigure" "geometry_msgs" "roscpp" "rospy" "sensor_msgs" "std_msgs" "message_generation" "robot_base_msgs")
+set(roboteq_driver_RUN_DEPENDS "actionlib" "device_driver_base" "dynamic_reconfigure" "geometry_msgs" "roscpp" "rospy" "sensor_msgs" "std_msgs" "message_runtime" "robot_base_msgs")
+set(roboteq_driver_BUILDTOOL_DEPENDS "catkin")

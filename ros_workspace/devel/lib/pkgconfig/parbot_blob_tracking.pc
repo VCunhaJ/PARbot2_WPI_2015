@@ -1,0 +1,8 @@
+prefix=/home/parbot/ros_workspace/devel
+
+Name: parbot_blob_tracking
+Description: Description of parbot_blob_tracking
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/parbot/ros_workspace/devel/lib 
+Requires: 

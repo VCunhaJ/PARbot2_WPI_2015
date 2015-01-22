@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libUI_Command_handler.so -o /home/parbot/ros_workspace/devel/lib/libUI_Command_handler.so CMakeFiles/UI_Command_handler.dir/src/UI_Command_handler.cpp.o 

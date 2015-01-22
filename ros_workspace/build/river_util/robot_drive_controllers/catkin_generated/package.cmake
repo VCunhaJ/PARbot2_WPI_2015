@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "robot_drive_controllers")
+set(robot_drive_controllers_MAINTAINER "Mitchell Wills <mwills@wpi.edu>")
+set(robot_drive_controllers_DEPRECATED "")
+set(robot_drive_controllers_VERSION "0.0.0")
+set(robot_drive_controllers_BUILD_DEPENDS "controller_interface" "hardware_interface" "roscpp" "geometry_msgs" "river_ros_util")
+set(robot_drive_controllers_RUN_DEPENDS "controller_interface" "hardware_interface" "roscpp" "geometry_msgs" "river_ros_util")
+set(robot_drive_controllers_BUILDTOOL_DEPENDS "catkin")

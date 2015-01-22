@@ -1,0 +1,8 @@
+prefix=/home/parbot/ros_workspace/devel
+
+Name: parbot_pathplanning
+Description: Description of parbot_pathplanning
+Version: 0.0.0
+Cflags: -I/home/parbot/ros_workspace/devel/include
+Libs: -L/home/parbot/ros_workspace/devel/lib 
+Requires: 

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "parbot_imu_coms")
+set(parbot_imu_coms_MAINTAINER "parbot <parbot@todo.todo>")
+set(parbot_imu_coms_DEPRECATED "")
+set(parbot_imu_coms_VERSION "0.0.0")
+set(parbot_imu_coms_BUILD_DEPENDS "geometry_msgs" "roscpp")
+set(parbot_imu_coms_RUN_DEPENDS "geometry_msgs" "roscpp")
+set(parbot_imu_coms_BUILDTOOL_DEPENDS "catkin")

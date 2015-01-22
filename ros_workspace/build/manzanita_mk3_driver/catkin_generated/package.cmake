@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "manzanita_mk3_driver")
+set(manzanita_mk3_driver_MAINTAINER "parbot <parbot@todo.todo>")
+set(manzanita_mk3_driver_DEPRECATED "")
+set(manzanita_mk3_driver_VERSION "0.0.0")
+set(manzanita_mk3_driver_BUILD_DEPENDS "message_generation" "roscpp")
+set(manzanita_mk3_driver_RUN_DEPENDS "roscpp")
+set(manzanita_mk3_driver_BUILDTOOL_DEPENDS "catkin")

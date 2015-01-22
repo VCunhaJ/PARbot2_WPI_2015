@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "parbot_motor_control")
+set(parbot_motor_control_MAINTAINER "parbot <parbot@todo.todo>")
+set(parbot_motor_control_DEPRECATED "")
+set(parbot_motor_control_VERSION "0.0.0")
+set(parbot_motor_control_BUILD_DEPENDS )
+set(parbot_motor_control_RUN_DEPENDS )
+set(parbot_motor_control_BUILDTOOL_DEPENDS "catkin")

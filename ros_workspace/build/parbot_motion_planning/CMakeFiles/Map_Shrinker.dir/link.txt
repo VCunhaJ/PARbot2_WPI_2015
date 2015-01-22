@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libMap_Shrinker.so -o /home/parbot/ros_workspace/devel/lib/libMap_Shrinker.so CMakeFiles/Map_Shrinker.dir/src/Map_Shrinker.cpp.o 
