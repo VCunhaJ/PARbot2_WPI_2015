@@ -9,7 +9,7 @@
  * @Subscriber: /daVinci/Fixture/OutliersDisplay
  * @msg: sensor_msgs::PointCloud2
  *
- * @purpose: Eliminates noise from cloud by establishing 
+ * @purpose: Eliminates noise from cloud by removing all points outside of a radius treshold  
  *      
  *
  */

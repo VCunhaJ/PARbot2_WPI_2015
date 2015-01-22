@@ -4,7 +4,8 @@ daVinci Virtual Fixtures
 General description
 ---------------------
 This package fuses multiple PCL-oriented nodes that utilizes the softkinetic API package via Senz3D Interactive Gesture Camera
-in ROS and performs Virtual Fixtures Operations for the PARbot MQP
+in ROS and performs Virtual Fixtures Operations for the da Vinci Virtual Environment 
+
 
 
 #### Parameters

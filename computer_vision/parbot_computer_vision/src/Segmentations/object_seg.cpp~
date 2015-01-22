@@ -8,7 +8,7 @@
  * @Subscriber: /daVinci/Fixture/OutliersDisplay
  * @msg: sensor_msgs::PointCloud2
  *
- * @purpose: uses Euclidean Cluster extraction algorithm to define how many objects are on the 
+ * @purpose: uses Euclidean Cluster extraction algorithm to define how many objects are on the plane
  *
  *
  */

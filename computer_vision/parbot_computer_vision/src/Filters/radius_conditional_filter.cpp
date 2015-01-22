@@ -1,7 +1,7 @@
 /*
  *
  * Author(s): Vanderlei Cunha Jr.
- * ME5205 - Professor Fischer
+ * PARbot MQP
  * Created December 15, 2014
  *
  * @node: radius_conditional_filter_node

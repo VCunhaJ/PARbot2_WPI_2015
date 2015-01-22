@@ -1,6 +1,6 @@
 /*
  * Author(s): Vanderlei Cunha Jr.
- * ME5205 - Professor Fischer
+ * PARbot MQP
  * Created December 13, 2014
  *
  * @node: object_seg_node
