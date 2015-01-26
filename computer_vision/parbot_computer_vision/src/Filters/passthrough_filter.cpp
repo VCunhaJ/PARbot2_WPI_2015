@@ -17,6 +17,7 @@
 #include <Fixtures/virtual_fixtures.h>
 #include <Fixtures/Filters/passthrough_filter.h>
 
+using namespace std;
 using namespace pcl;
 using namespace std;
 

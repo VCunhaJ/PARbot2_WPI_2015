@@ -1,11 +1,11 @@
 /*
  * Author(s): Vanderlei Cunha Jr.
- * ME5205 - Professor Fischer
+ * PARbot MQP
  * Created December 1, 2014
  *
  * @node: outlier_display_node
- * @Publisher: /daVinci/Fixture/OutliersDisplay
- * @Subscriber: /daVinci/Fixture/PassthroughFilter
+ * @Publisher: 
+ * @Subscriber:
  * @msg: sensor_msgs::PointCloud2
  *
  * @purpose: finds the biggest plane (wall or table) using RANSAC (SAC_RANSAC) plane model fitting and removes biggest plane 
@@ -72,7 +72,7 @@ while(segCloudPtr->points.size() > 0.3*nr_points)
 	ex.filter(*planeExtractedPtr);
 	*segCloudPtr = *planeExtractedPtr;
 
-std::cerr<<"3D Model has: "<<planeExtractedPtr->width*planeExtractedPtr->height<<" data points."<<std::endl;
+//std::cerr<<"3D Model has: "<<planeExtractedPtr->width*planeExtractedPtr->height<<" data points."<<std::endl;
 
 //Convert from PointCloud class to PointCloud2 msg
 pcl::toROSMsg(*segCloudPtr, pc_data);

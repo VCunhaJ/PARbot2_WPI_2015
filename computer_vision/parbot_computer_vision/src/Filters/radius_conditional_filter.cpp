@@ -26,8 +26,9 @@ void RadiusFilterCallBack(const sensor_msgs::PointCloud2 &rawcloud)
 fromROSMsg(rawcloud, *notFilteredCloudPtr);
 
 radiusFilter.setInputCloud(notFilteredCloudPtr);
-radiusFilter.setRadiusSearch(0.12);
-radiusFilter.setMinNeighborsInRadius((notFilteredCloudPtr->points.size()/4));
+radiusFilter.setRadiusSearch(RADIUS);
+//radiusFilter.setMinNeighborsInRadius((notFilteredCloudPtr->points.size()/4));
+radiusFilter.setMinNeighborsInRadius(400);
 radiusFilter.filter(*radiusFilteredCloudPtr);
 
 
@@ -44,7 +45,7 @@ int main (int argc, char** argv)
 
 ros::init(argc, argv, "radius_conditional_filter_node");
 ros::NodeHandle node;
-subscribe_raw_data = node.subscribe("/daVinci/Segmentation/ObjectSegmentation", 1, &RadiusFilterCallBack);
+subscribe_raw_data = node.subscribe("/daVinci/Fixture/OutliersDisplay", 1, &RadiusFilterCallBack);
 publish_radius_filter = node.advertise<sensor_msgs::PointCloud2>("/daVinci/Fixture/RadiusConditionalFilter",1);
 
 

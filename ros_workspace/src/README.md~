@@ -1,0 +1,177 @@
+Personal Assistative Robot
+===================================
+
+General description
+---------------------
+This workspace encompasses multiple algorithms and drivers in order to
+
+
+#### Packages
+
+**camera_umd** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+
+**cliff_detection** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**common-libs-master** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**computer_sensors**   
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**jpeg_streamer**    
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+     
+
+**laserscan_test**   
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**manzanita_mk3_driver**   
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**parbot_blob_tracking**   
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**parbot_depthimage_to_laserscan**  
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**parbot_imu_coms**   
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**parbot_master**  
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**parbot_motion_planning** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+ 5. 
+**parbot_motor_control** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**parbot_msgs** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**parbot_pathplanning** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**parbot_pc2_to_lsc** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**parbot_teleop** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**parbot_tf** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**parbot_tfs** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+ 
+**parbot_ui** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**pionner3at** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**pixy** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**razor_imu_9dof** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**rbe_500_model** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**river_util** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**robot_base_msgs**
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**roboteq_driver** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**roboteq_mc_nxtgen_driver** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**robot_mc_nxten_driver_tests** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**uvc_camera** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+
+**zbar-master** 
+ 1. Format:
+ 2. Description: 
+ 3. Launch:
+ 
+
+#### Architecture
+
+
+ 
+ 
+
+
+			
+

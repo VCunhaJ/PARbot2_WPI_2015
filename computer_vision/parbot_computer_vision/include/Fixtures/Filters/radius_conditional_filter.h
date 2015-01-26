@@ -12,14 +12,14 @@ Publisher publish_radius_filter;
 
 /*Class Objects*/
 
-PointCloud<PointXYZRGB>::Ptr notFilteredCloudPtr(new pcl::PointCloud<PointXYZRGB>);
-PointCloud<PointXYZRGB>::Ptr radiusFilteredCloudPtr(new pcl::PointCloud<PointXYZRGB>);
+PointCloud<PointXYZRGB>::Ptr notFilteredCloudPtr(new PointCloud<PointXYZRGB>);
+PointCloud<PointXYZRGB>::Ptr radiusFilteredCloudPtr(new PointCloud<PointXYZRGB>);
 RadiusOutlierRemoval<PointXYZRGB> radiusFilter;
 /*Sensor Messages*/
 sensor_msgs::PointCloud2 filteredCloud;
 
 /*Parameters*/
-const double RADIUS = 0.12;
+const double RADIUS = 0.14;
 
 
 
