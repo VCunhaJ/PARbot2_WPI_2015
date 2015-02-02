@@ -33,7 +33,7 @@ radiusFilter.filter(*radiusFilteredCloudPtr);
 
 void EuclideanCluster(PointCloud<PointXYZRGB>::Ptr new_cloud)
 {
-RadiusFilter(new_cloud);
+//RadiusFilter(new_cloud);
 kdTree->setInputCloud(new_cloud);
 cluster.setClusterTolerance(CLUSTER_TOLERANCE);
 cluster.setMinClusterSize(MINIMUM_CLUSTER_SIZE);

@@ -35,6 +35,23 @@ voxel.filter(*segCloudPtr);
 }
 
 
+void RANSACModel(PointCloud<PointXYZRGB>::Ptr table)
+{
+SampleConsensusModelPlane<PointXYZRGB>::Ptr model(new SampleConsensusModelPlane<PointXYZRGB>(table));
+RandomSampleConsensus<PointXYZRGB> ransac(model);
+
+  //Set the maximum allowed distance to the model
+  ransac.setDistanceThreshold(dist_threshold);
+  ransac.computeModel();
+  ransac.setMaxIterations(iteration_num);
+
+  ransac.getInliers(inlierIndicesVector);
+
+// Copy all inliers of the model to another cloud.
+ copyPointCloud<PointXYZRGB>(*table, inlierIndicesVector, *inlierPointsPtr);
+
+}
+
 /*------------------------------------------------------------------------------------------------*/
 void outlierDisplay(const sensor_msgs::PointCloud2& msg){
 
@@ -59,7 +76,7 @@ while(segCloudPtr->points.size() > 0.3*nr_points)
 
 	if (inlierIndices->indices.size() == 0)
 	{
-			std::cerr<<"Table Not Found"<<std::endl;
+			std::cerr<<"Surface Not Found"<<std::endl;
 			break;
 	}
 
@@ -74,8 +91,12 @@ while(segCloudPtr->points.size() > 0.3*nr_points)
 
 //std::cerr<<"3D Model has: "<<planeExtractedPtr->width*planeExtractedPtr->height<<" data points."<<std::endl;
 
+RANSACModel(segCloudPtr);
+
+
 //Convert from PointCloud class to PointCloud2 msg
 pcl::toROSMsg(*segCloudPtr, pc_data);
+
 
 pub_seg.publish(pc_data);
 
@@ -95,7 +116,7 @@ ros::NodeHandle node;
 	//Subscribe to raw data topic
 
 sub_raw_data = node.subscribe("/daVinci/Fixture/PassthroughFilter", 1, &outlierDisplay);
-pub_seg = node.advertise<sensor_msgs::PointCloud2>("/daVinci/Fixture/OutliersDisplay", 1);
+pub_seg = node.advertise<sensor_msgs::PointCloud2>("/FRAISER/Fixture/BigPlaneRemoved", 1);
 ros::Rate loopRate(10);
 while(node.ok()){
 
