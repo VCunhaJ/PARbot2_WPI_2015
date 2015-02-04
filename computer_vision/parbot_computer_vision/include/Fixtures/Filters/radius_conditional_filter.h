@@ -19,7 +19,7 @@ RadiusOutlierRemoval<PointXYZRGB> radiusFilter;
 sensor_msgs::PointCloud2 filteredCloud;
 
 /*Parameters*/
-const double RADIUS = 0.14;
+const double RADIUS = 0.08;
 
 
 

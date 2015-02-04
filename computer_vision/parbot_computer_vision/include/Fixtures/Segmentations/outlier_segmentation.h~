@@ -45,7 +45,7 @@ PointCloud<PointXYZRGB>::Ptr inlierPointsPtr(new PointCloud<PointXYZRGB>);
 std::vector<int> inlierIndicesVector;
 
 /*Point Distance Threshold and Max Iteratoin*/
-double dist_threshold = 0.015;
+double dist_threshold = 0.15;
 int iteration_num = 20;
 /*Parameter for filtering point cloud noise*/
 double noise_eliminate;

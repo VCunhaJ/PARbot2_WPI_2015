@@ -45,7 +45,7 @@ int main (int argc, char** argv)
 
 ros::init(argc, argv, "passthrough_filter_node");
 ros::NodeHandle node;
-subscribe_raw_data = node.subscribe("/softkinetic_camera/depth/points", 1, &PassFilterCallBack);
+subscribe_raw_data = node.subscribe("/softkinetic_camera/depth/points", 1, &PassFilterCallBack);        //check if it should be subscribing to sometthing else
 publish_filter = node.advertise<sensor_msgs::PointCloud2>("/daVinci/Fixture/PassthroughFilter",1);
 
 
